@@ -1,0 +1,166 @@
+h1 {
+    text-align: center;
+    color: #763626;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+#h1main {
+	color: #2A3132;
+}
+
+p {
+    color: lightgray;
+    font-size: 32px;
+    font-family: "Montserrat", sans-serif;
+}
+
+h2, h4 {
+    text-align: left;
+    font-weight: bold;
+    color: #90AFC5;
+}
+
+h3 {
+    text-align: left;
+    font-weight: normal;
+    color: lightgray;
+    font-size: 30px;
+    font-family: "Monstserrat", sans-serif;
+}
+
+h4 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 45px;
+
+}
+
+iframe {
+	width: 80%;
+	height: 1000px;
+	margin: auto;
+	justify-content: center;
+	padding-top: 50px;
+	border: none;
+}
+
+.parent {
+	display: flex;
+}
+
+source {
+	margin: auto;
+	justify-content: center;
+}
+
+body {
+    background-color: #2A3132;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+}
+
+img {
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+li {
+    font-size: 38px;
+    color: lightgray;
+}
+
+#a1:link, #a1:visited {
+	color: #336B87;
+}
+
+#a1:hover, #a1:active {
+	color: #90AFC5;
+}
+
+.nav_bar {
+	width: 69%;
+	margin: 0 auto;
+}
+
+header {
+  background: #336B87;
+}
+
+header ul {
+  	margin: 0;
+  	padding: 0;
+}	
+
+header li{
+  	float: left;
+  	display: inline;
+  	padding: 0 20px 0 20px;
+}
+
+header::after {
+  	content: '';
+  	display: table;
+  	clear: both;
+}
+
+.logo {
+  	float: left;
+  	padding: 10px 0;
+}
+
+nav ul {
+  	margin: 0;
+  	padding: 0;
+  	list-style: none;
+}
+
+nav li {
+  	display: inline-block;
+  	margin-left: 58px;
+  	padding-top: 20px;
+
+  	position: relative;
+}
+
+nav a {
+  	color: lightgray;
+  	text-decoration: none;
+  	text-transform: uppercase;
+  	font-size: 18px;
+}
+
+nav a:hover {
+  	color: #90AFC5;
+  	font-weight: bold;
+}
+
+nav a::before {
+ 	content: '';
+ 	display: block;
+  	height: 5px;
+  	background-color: #90AFC5;
+  	position: absolute;
+  	top: 0;
+  	width: 0%;
+  	transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  	width: 100%;
+}
+
+.container {
+    background-color: #0B0C10;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+    margin-top: 2.5em;
+    padding: 0 7em 2em 0;
+}
+
+header #project h1 {
+  	margin: 0;
+  	padding-bottom: 10px;
+}
